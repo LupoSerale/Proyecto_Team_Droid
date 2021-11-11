@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Team Droid</string>
+    <string name="obelisco_de_puerto_lopez">Obelisco de Puerto Lopez</string>
+    <string name="descripcion_OPL">Conocido como el ombligo de Colombia por ser el punto que demarca el centro geográfico del territorio colombiano. Al legar a Puerto López, municipio ubicado a 83 kilómetros al sur de Villavicencio, se divisa el Alto de Menegua, donde se levante el obelisco. Allí se puede observar el sol en todo su esplendor, puesto sobre este monumento hacia medio día. \n\nA 4° y 5 minutos de latitud norte (4°5’L.N) y a 72° y 57 minutos latitud oeste(72°57’L.O)</string>
+    <string name="imagen_obelisco_de_puerto_lopez">Obelisco de Puerto Lopez</string>
+    <string name="departamento_del_meta">Sitios Turísticos \nDepartamento del Meta</string>
+    <string name="imagen_bioparque_los_ocarros">bioparque_los_ocarros</string>
+    <string name="bioparque_los_ocarros">Bioparque los Ocarros</string>
+    <string name="imagen_canio_cristales">imagen_canio_cristales</string>
+    <string name="canio_cristales">Caño Cristales</string>
+</resources>

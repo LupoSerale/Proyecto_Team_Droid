@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listar_Sitios_Turisticos">
+
+    <TextView
+        android:id="@+id/listarSitiosTuristicos"
+        style="@style/Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/departamento_del_meta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagePrimerSitio"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/imagen_obelisco_de_puerto_lopez"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listarSitiosTuristicos"
+        app:srcCompat="@drawable/obelisco_de_puerto_lopez" />
+
+    <TextView
+        android:id="@+id/primerSitio"
+        style="@style/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/obelisco_de_puerto_lopez"
+        app:layout_constraintStart_toEndOf="@+id/imagePrimerSitio"
+        app:layout_constraintTop_toBottomOf="@+id/listarSitiosTuristicos" />
+
+    <ImageView
+        android:id="@+id/imageSegundoSitio"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/imagen_bioparque_los_ocarros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePrimerSitio"
+        app:srcCompat="@drawable/imagen_bioparque_los_ocarros" />
+
+    <TextView
+        android:id="@+id/segundoSitio"
+        style="@style/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/bioparque_los_ocarros"
+        app:layout_constraintStart_toEndOf="@+id/imageSegundoSitio"
+        app:layout_constraintTop_toBottomOf="@+id/primerSitio" />
+
+    <ImageView
+        android:id="@+id/imageTercerSitio"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/imagen_canio_cristales"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSegundoSitio"
+        app:srcCompat="@drawable/canio_cristales" />
+
+    <TextView
+        android:id="@+id/tercerSitio"
+        style="@style/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/canio_cristales"
+        app:layout_constraintStart_toEndOf="@+id/imageTercerSitio"
+        app:layout_constraintTop_toBottomOf="@+id/segundoSitio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
